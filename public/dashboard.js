@@ -10,7 +10,7 @@ const typingElement = document.querySelector(".typing");
 let phraseIndex = 0;
 let letterIndex = 0;
 let currentPhrase = "";
-let colors = ["blue", "rgb(183, 236, 10)", "crimson", "yellow"];
+let colors = ["#fa5af5", "#31cc3e", "crimson", "yellow"];
 let currentColorIndex = 0;
 
 function type() {
